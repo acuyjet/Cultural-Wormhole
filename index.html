@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Cultural Wormhole</title>
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/normalize.css" type="text/css">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans">
-        <link rel="stylesheet" href="css/main.css"
+        <link rel="stylesheet" href="css/main.css" type="text/css">
     </head>
     <body>
         <header>
@@ -13,21 +13,36 @@
         </header>
         <nav>
             <ul>
-                <li><h1><a href='shows.html'>Shows</a></h1></li>
-                <li><h1><a href='listen.html'>Listen</h1></a></li>
-                <li><h1><a href='contact.html'>Contact</h1></a></li>
+                <li><h2>Listen:</h2></li>
+                <li><a href="https://itunes.apple.com/podcast/cultural-wormhole/id380872006" target="_blank" alt="Cultural Wormhole on iTunes"><h2>iTunes</h2></a></li>
+                <li><a href="http://www.stitcher.com/s?fid=59081&refid=stpr" target="_blank" alt="Cultural Wormhole on Stitcher"><h2>Stitcher</h2></a></li>
+                <li><a href="http://cworm.libsyn.com/rss" target="_blank" alt="Cultural Wormhole RSS Feed"><h2>RSS</h2></a></li>
             </ul>
         </nav>
-        <section id="latest">
-            <h2>Latest</h2>
+        <h1 id="latest">Latest Podcasts</h1>
+        <div id="podcasts">
             <ul>
-                <li><img src="img/AN29.jpg" alt="Avengers Now! Episode 29"></li>
-                <li><img src="img/XN116.jpg" alt="X-Nation #116"></li>
-                <li><img src="img/VF033.jpg" alt="Valiant Future #33"></li>
+                <li><img src="img/XNation_off.jpg" class="rollover" alt="X-Nation"></li>
+                <li><img src="img/ValiantFuture_off.jpg" class="rollover" alt="Valiant  Future"></li>
+                <li><img src="img/GoldKeyFuture_off.jpg" class="rollover" alt="Gold Key Future"></li>
+                <li><img src="img/FFWormhole_off.jpg" class="rollover" alt="FF Wormhole"></li>
+                <li><img src="img/CulturalWormhole_off.jpg" class="rollover" alt="Cultural Wormhole"></li>
+                <li><img src="img/AvengersNow_off.jpg" class="rollover" alt="Avengers Now!"></li>
             </ul>
         
-        </section>
+        </div>
         <footer>
+            <ul id="contact">
+                <li><a href="mailto:culturalwormhole@gmail.com"><img src="img/email.png" alt="Email"></a></li>
+                <li><a href="http://twitter.com/cltrlwrmhl" target="_blank"><img src="img/twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.facebook.com/pages/Cultural-Wormhole/126093924091278?fref=ts" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></li>
+            </ul>
+
+<!--            Facebook and Twitter Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/katarina-stefanikova" title="Katarina Stefanikova">Katarina Stefanikova</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>-->
+<!--            Mail Icon made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>-->
+<!--Play icons made by <a href="http://www.flaticon.com/authors/appzgear" title="Appzgear">Appzgear</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>-->
         </footer>
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="scripts/cw.js" type="text/javascript" charset="utf-8"></script>
     </body>
 </html> 
