@@ -1,49 +1,72 @@
 body {
     color: black;
     font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    background: white;
 }
 
-img {
+header, header img {
     width: 100%;
-    box-shadow: -5px 5px 5px lightgray;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    box-shadow: -2px 2px 5px lightgray;
 }
 
 a {
     text-decoration: none;
 }
 
- nav a:focus, a:link, a:active {
-    outline: none;
-    color: black;
-}
-
-a:hover {
-    font-weight: lighter;
-}
-
-nav ul {
-    width: 100%;
-    text-align: center;
-    margin: 0
-}
-
-nav li {
-    display: inline-block;
-    padding: 0 100px;
-    text-shadow: -2px 2px 5px lightgray;
-}
-
 ul {
+    list-style: none;
     padding: 0;
 }
 
 #latest {
-    text-align: center;
-    margin-top: 50px;   
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 150px;
 }
 
-#latest li {
+#podcasts {
+    text-align: center;
+    margin: 25px 0;   
+}
+
+#podcasts li {
     display: inline-block;
-    padding: 15px;
-    margin-top: 50 px;
+    padding: 30px;
+}
+
+#contact {
+    text-align: center;
+    margin-bottom: 75px;
+    width: 100%;
+}
+
+#contact img {
+    max-height: 30px;
+    max-width: 30px;
+    padding: 25px;
+}
+
+#contact li {
+    display: inline-block;
+}
+
+ nav a:focus, a:link, a:active, a:visited {
+    outline: none;
+    color: black;
+}
+
+nav ul {
+    width: 100%;
+    letter-spacing: 1.5px;
+    margin-top: 0;
+    margin-left: 50%;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 25px;
+    text-shadow: -2px 2px 5px lightgray;
 }
