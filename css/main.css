@@ -73,3 +73,44 @@ nav li {
     padding: 0 25px;
     text-shadow: -2px 2px 5px lightgray;
 }
+
+
+/* Media queries */
+@media screen and (max-width: 517px) {
+    body {
+        font-size: 0.8em;
+    }
+    
+    nav li {
+        padding: 0 20px;
+    }
+    
+    #latest {
+        margin-top: 50px;
+    }
+    
+    #podcasts img {
+        max-height: 250px;
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    body {
+        font-size: 0.6em;
+        letter-spacing: 0.3em;
+    }
+    
+    nav li {
+        padding: 0 15px;
+    }
+    
+    #latest {
+        margin-bottom: 25px;
+    }
+    
+    #podcasts img {
+        max-height: 225px;
+        max-width: 225px;
+    }
+}
