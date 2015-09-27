@@ -74,6 +74,11 @@ nav li {
     text-shadow: -2px 2px 5px lightgray;
 }
 
+p {
+    text-align: center;
+    letter-spacing: 0;
+}
+
 
 /* Media queries */
 @media screen and (max-width: 517px) {
