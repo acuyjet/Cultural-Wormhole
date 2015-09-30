@@ -11,8 +11,9 @@ $(document).ready(function() {
 
 //Accordion widget
     $(function() {
-        $( "#accordion" ).accordion({
-            collapsible: true
+        $( ".accordion" ).accordion({
+            collapsible: true,
+            active: false
         });
     });
 }); 
