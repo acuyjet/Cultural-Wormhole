@@ -96,8 +96,12 @@ p {
     padding: 0 75px;
 }
 
-#accordion {
+.accordion {
     padding: 0 75px;
+}
+
+.accordion a {
+    color: #009be0;
 }
 
 /* Media queries */
